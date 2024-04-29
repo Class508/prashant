@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form - Bhanu Secondary School</title>
+    <link rel="stylesheet" href="admission.css">
+</head>
+<body>
+    <header>
+        <h1>Bhanu Secondary School</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Admission Form</h2>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+             
+                <label for="father name">Father Name:</label>
+                <input type="text" id="father name" name="father name" required>
+      
+                <label for="mother name">Mother Name:</label>
+                <input type="text" id="mother name" name="mother name" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="class">Class:</label>
+                <input type="text" id="class" name="class" required>
+
+                <label for="previous_school">Previous School:</label>
+                <input type="text" id="previous_school" name="previous_school">
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+
+                <label for="passport_photo">Passport-size Photo:</label>
+                <input type="file" id="passport_photo" name="passport_photo" accept="image/*" required>
+
+                <label for="certificate_photo">previous class Certificate Photo:</label>
+                <input type="file" id="certificate_photo" name="certificate_photo" accept="image/*" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 cs project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
