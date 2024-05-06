@@ -13,12 +13,14 @@ body {
     background-image: url('pic3.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
-    
+    display: flex;
    
 }
 
 /* Signup container styles */
 .signup-container {
+    align-self: center;
+    justify-self: center;
     max-width: 400px;
     margin: 50px auto;
     background-color: rgba(255, 255, 255, 0.4); /* Adding a semi-transparent background color to improve readability */
