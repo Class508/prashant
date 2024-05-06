@@ -17,23 +17,14 @@ body {
 /* Header styles */
 header {
     background-image: url('banner.jpg');
-    background-size: cover;
+    height: 170px;
     background-repeat: no-repeat; 
-    padding: 10px;
-    text-align: center;
-    height: 100px;
+    background-size: cover;
 }
 
-
-
-header h1 {
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-/* Navigation styles *//* Navigation bar color */
+/* Navigation styles */
 nav {
-    background-color: #333; /* Dark background color */
+    background-color: #333; /* Navigation bar color */
     height: 40px;
     display: flex;
     justify-content: center;
@@ -67,6 +58,7 @@ nav ul li a:hover {
 
 /* Main styles */
 main {
+    display: flex;
     max-width: 960px;
     margin: 20px auto;
     padding: 0 20px;
@@ -80,6 +72,13 @@ section h2 {
     color: #007bff;
     margin-bottom: 10px;
 }
+
+.pic{
+    background-image: url(logo.png);
+    height: 500px;
+    width: 700px;
+}
+
 /* Footer styles */
 footer {
     background-color: #007bff;
