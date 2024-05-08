@@ -75,8 +75,8 @@ section h2 {
 
 .pic{
     background-image: url('pic1.jpg');
-    height: 500px;
-    width: 600px;
+    height: auto;
+    width: auto;
 }
 
 /* Footer styles */
