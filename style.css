@@ -75,8 +75,10 @@ section h2 {
 
 .pic{
     background-image: url('pic1.jpg');
-    height: auto;
     width: auto;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 /* Footer styles */
