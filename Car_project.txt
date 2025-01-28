@@ -1,0 +1,9 @@
+ultra sonic sensor × 1;  rs.290
+Servo motor × 2 (for wheel steering and sensor turn) RS.270×2
+7.4 li-ion battery × 1 × rs.800
+Arduino uno rev 3 × 1 Rs.1400
+Motor driver module L298N × 1 Rs.400
+Bluetooth module HC-05 × 1 Rs.650
+Jumpers wire × one set Rs.244
+BO motor 2.4kg torque × 2 RS.160×2
+Wheel × Rs.400
